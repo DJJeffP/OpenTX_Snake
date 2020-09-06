@@ -16,7 +16,7 @@
 
 ## Requirements
 
-* [OpenTX v2.3.9+](http://www.open-tx.org/) running on Taranis Q X7/Q X7S,Horus X10/X10S or X12S (OpenTX v2.3.9+ is suggested)
+* [OpenTX v2.3.9+](http://www.open-tx.org/) running on FrSky Horus X10/X10S, Jumper T16 or Radiomaster TX12S (OpenTX v2.3.9+ is suggested)
 * Radiomaster TX16S requires [Latest OpenTX Radio Firmware 2.3.9+](https://www.radiomasterrc.com/downloads) 
 * The OpenTX/TX16S firmware on your transmitter needs to [includes the `luac` build option]
 
@@ -25,4 +25,3 @@
 * Saving all time HighScore
 * Update the PNG to HD Pictures
 * Thema's
-* 
