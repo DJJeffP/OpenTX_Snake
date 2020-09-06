@@ -21,6 +21,7 @@
 * The OpenTX/TX16S firmware on your transmitter needs to [includes the `luac` build option]
 
 ## TODO
+* Running from Telemetry screen with a Model
 * Mode 1 and Mode 2 selector in settings menu
 * Saving all time HighScore
 * Update the PNG to HD Pictures
