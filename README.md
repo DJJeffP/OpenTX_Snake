@@ -1,5 +1,5 @@
 
-## OpenTX_Snake for TX16S/Horus/Jumper T16 - v1.1.1
+## OpenTX_Snake for TX16S/Horus/Jumper T16 - v1.0.0
 
 ### OpenTX_Snake
  Snake HD for OpenTX HD Screens
