@@ -20,6 +20,15 @@
 * Radiomaster TX16S requires [Latest OpenTX Radio Firmware 2.3.9+](https://www.radiomasterrc.com/downloads) 
 * The OpenTX/TX16S firmware on your transmitter needs to [includes the `luac` build option]
 
+## Install
+* Just copy the content from the dist folder to your Sdcard to your `/SCRIPTS/TELEMETRY/`. It should look like '/SCRIPTS/TELEMETRY/SnakeHD/'
+
+## Play
+* Run the main.luac from `SD-HC Card` > `/SCRIPTS/TELEMETRY/SnakeHD/main.luac`
+* Use the Right stick to move the snake.
+* Collect as many bugs you can and try to beat your HighScore.
+
+
 ## TODO
 * Running from Telemetry screen with a Model
 * Mode 1 and Mode 2 selector in settings menu
