@@ -21,7 +21,9 @@
 * The OpenTX/TX16S firmware on your transmitter needs to [includes the `luac` build option]
 
 ## Install
-* Just copy the content from the dist folder to your Sdcard to your `/SCRIPTS/TELEMETRY/`. It should look like '/SCRIPTS/TELEMETRY/SnakeHD/'
+* download the latest release from: https://github.com/DJJeffP/OpenTX_Snake/releases/
+* extract the zipfile.
+* Copy the extracted content on your Sdcard to `/SCRIPTS/TELEMETRY/`. It should look like '/SCRIPTS/TELEMETRY/SnakeHD/'
 
 ## Play
 * Run the main.luac from `SD-HC Card` > `/SCRIPTS/TELEMETRY/SnakeHD/main.luac`
