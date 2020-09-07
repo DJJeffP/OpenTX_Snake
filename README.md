@@ -29,8 +29,9 @@
 * Run the main.luac from `SD-HC Card` > `/SCRIPTS/TELEMETRY/SnakeHD/main.luac`
 * Use the Right stick to move the snake.
 * Collect as many bugs you can and try to beat your HighScore.
-* Flip the SA switch all the way to pause the game and undo the SA switch to unpause the game.
-* Press RTN to exit the game.
+* To pause flip te SA switch all te way and the game will pause. Undo the SA switch to unpause. 
+* Press the RTN key to exit the game. 
+
 
 
 ## TODO
