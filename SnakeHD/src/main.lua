@@ -30,7 +30,7 @@ local ver, radio, maj, minor, rev = getVersion()
 
 debug = false
 direction = "right"
-HighScore = 100
+HighScore = 10
 
 -- loadScript(FILE_PATH .. "conf" .. ext, env)(data)
 loadScript(FILE_PATH .. "game" .. ext, env)(data)
