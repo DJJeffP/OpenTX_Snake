@@ -125,7 +125,6 @@ function run(event)
 				interval = 3
 			elseif tail_lenght > 45 and tail_lenght <= 60 then
 				interval = 2
-				local level = 3
 			else
 				interval = 1
 			end
@@ -155,10 +154,12 @@ function run(event)
 		if state == GameStates.running then
 			state = GameStates.pauze
 			print( 'Game PAUZED!!' )
+			return 0
 		end
 	elseif getValue('sa') < 0 then
 		if state == GameStates.pauze then
 			state = GameStates.running
+			return 0
 		end
 	end
 	direction = dir
