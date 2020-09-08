@@ -12,7 +12,7 @@
 
 ## Features
 * Works with all HD touchscreens like in a Radiomaster TX16S
-* Just a fun Snake game you can play on the Controler
+* Just a fun Snake game you can play on the Controller
 
 ## Requirements
 
