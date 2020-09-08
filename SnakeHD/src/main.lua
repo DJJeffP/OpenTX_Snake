@@ -83,18 +83,18 @@ function draw()
 		end
 
 		-- Display Score and Reset instruction
-		lcd.clear()
+		-- lcd.clear()
 		lcd.setColor(CUSTOM_COLOR, RED)
-		lcd.drawFilledRectangle(0, 0, LCD_W + 2, LCD_H + 2, CUSTOM_COLOR)	
+		lcd.drawFilledRectangle(LCD_W/2-150,LCD_H/2-24, 280, 78, CUSTOM_COLOR)	
 		lcd.drawRectangle(LCD_W/2-150, LCD_H/2-24, 280, 78,SOLID, 1)
-		lcd.drawText(LCD_W/2-130, LCD_H/2+6, "Aileron Left or Right to Restart", 0)
-		lcd.drawText(LCD_W/2-100, LCD_H/2+24,"Scrol to Change Speed", 0)
+		lcd.drawText(LCD_W/2-130, LCD_H/2+6, "SH to Restart", 0)
+		lcd.drawText(LCD_W/2-100, LCD_H/2+30,"Scrol to Change Speed", 0)
 
 		if tail_lenght <= HighScore then
 			lcd.drawText(LCD_W/2-52, LCD_H/2-20, "Score: ".. tail_lenght, 0)-- draw Score
 
 			-- command to start another snake.  Aileron moved more than 20% Left or Right
-			if math.abs(getValue("input2")) < -10 or math.abs(getValue("input2")) > 10 then
+			if getValue("sh") > 100 then
 				game_restart()			
 				return 0
 			end
@@ -102,9 +102,8 @@ function draw()
 			lcd.drawText(LCD_W/2-85, LCD_H/2-20, "NEW HIGHSCORE: ".. tail_lenght, 0) -- draw HighScore
 
 			-- command to start another snake.  Aileron moved more than 20% Left or Right
-			if math.abs(getValue("input2")) < -10 or math.abs(getValue("input2")) > 10 then
-				HighScore = tail_lenght
-				game_restart()
+			if getValue("sh") > 100 then
+				game_restart()			
 				return 0
 			end
 		end
