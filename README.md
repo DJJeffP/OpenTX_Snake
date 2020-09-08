@@ -23,7 +23,7 @@
 ## Install
 * download the latest release from: https://github.com/DJJeffP/OpenTX_Snake/releases/
 * extract the zipfile.
-* Copy the extracted content on your Sdcard to `/SCRIPTS/TELEMETRY/`. It should look like '/SCRIPTS/TELEMETRY/SnakeHD/'
+* Copy the extracted content on your Sdcard to `/SCRIPTS/TELEMETRY/`. It should look like `/SCRIPTS/TELEMETRY/SnakeHD/`
 
 ## Play
 * Run the main.luac from `SD-HC Card` > `/SCRIPTS/TELEMETRY/SnakeHD/main.luac`
