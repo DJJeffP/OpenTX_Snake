@@ -8,7 +8,7 @@
 
 #### Horus/TX16S view
 
-![sample](assets/snake_TX16S.png "View on TX16S transmitters")
+![sample](assets/Snake2.png "View on TX16S transmitters")
 
 ## Features
 * Works with all HD touchscreens like in a Radiomaster TX16S
@@ -27,9 +27,10 @@
 
 ## Play
 * Run the main.luac from `SD-HC Card` > `/SCRIPTS/TELEMETRY/SnakeHD/main.luac`
-* Use the Right stick to move the snake.
-* Collect as many bugs you can and try to beat your HighScore.
-* To pause flip te SA switch all te way and the game will pause. Undo the SA switch to unpause. 
+* Use the Right stick to move the purple snake.
+* Collect as many yellow ball's you can and try to beat your HighScore.
+* To pause flip te SA switch all te way and the game will pause. Undo the SA switch to unpause.
+* Switch SH is for restart after a game. 
 * Press the RTN key to exit the game. 
 
 
