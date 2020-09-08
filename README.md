@@ -39,5 +39,4 @@
 * Running from Telemetry screen with a Model
 * Mode 1 and Mode 2 selector in settings menu
 * Saving all time HighScore
-* Update the PNG to HD Pictures
 * Thema's
