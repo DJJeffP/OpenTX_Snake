@@ -1,5 +1,5 @@
 --[[
-Snake HD
+Snake HD v2.1.0
 a Game made for the Radiomaster TX16S receiver
 Made by: Jeffrey Postma
 Inspired by Attila Toth for the Game script
@@ -18,7 +18,7 @@ TODO:
 ]]
 
 local buildMode = ...
-local VERSION = "1.0.0"
+local VERSION = "2.1.0"
 local FILE_PATH = "/SCRIPTS/TELEMETRY/SnakeHD/"
 local SMLCD = LCD_W < 212
 local HORUS = LCD_W >= 480

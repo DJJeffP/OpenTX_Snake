@@ -1,5 +1,5 @@
 --[[
-Snake HD
+Snake HD v2.1.0
 a Game made for the Radiomaster TX16S receiver
 Made by: Jeffrey Postma
 Inspired by Attila Toth for the Game script
