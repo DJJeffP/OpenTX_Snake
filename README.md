@@ -40,3 +40,7 @@
 * Mode 1 and Mode 2 selector in settings menu
 * Saving all time HighScore
 * Thema's
+
+
+
+[![paypal](https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EDMZJSRVBKZQQ&item_name=coding+free+software&currency_code=EUR&source=url)
