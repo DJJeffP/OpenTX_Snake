@@ -8,11 +8,11 @@
 
 #### Horus/TX16S view
 
-![sample](assets/snake_TX16S.png "View on TX16S transmitters")
+![sample](assets/Snake2.png "View on TX16S transmitters")
 
 ## Features
 * Works with all HD touchscreens like in a Radiomaster TX16S
-* Just a fun Snake game you can play on the Controler
+* Just a fun Snake game you can play on the Controller
 
 ## Requirements
 
@@ -21,12 +21,18 @@
 * The OpenTX/TX16S firmware on your transmitter needs to [includes the `luac` build option]
 
 ## Install
-* Just copy the content from the dist folder to your Sdcard to your `/SCRIPTS/TELEMETRY/`. It should look like '/SCRIPTS/TELEMETRY/SnakeHD/'
+* download the latest release from: https://github.com/DJJeffP/OpenTX_Snake/releases/
+* extract the zipfile.
+* Copy the extracted content on your Sdcard to `/SCRIPTS/TELEMETRY/`. It should look like `/SCRIPTS/TELEMETRY/SnakeHD/`
 
 ## Play
 * Run the main.luac from `SD-HC Card` > `/SCRIPTS/TELEMETRY/SnakeHD/main.luac`
-* Use the Right stick to move the snake.
-* Collect as many bugs you can and try to beat your HighScore.
+* Use the Right stick to move the purple snake.
+* Collect as many yellow ball's you can and try to beat your HighScore.
+* To pause flip te SA switch all te way and the game will pause. Undo the SA switch to unpause.
+* Switch SH is for restart after a game. 
+* Press the RTN key to exit the game. 
+
 
 
 ## TODO
@@ -34,3 +40,7 @@
 * Mode 1 and Mode 2 selector in settings menu
 * Saving all time HighScore
 * Thema's
+
+
+
+[![paypal](https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EDMZJSRVBKZQQ&item_name=coding+free+software&currency_code=EUR&source=url)
